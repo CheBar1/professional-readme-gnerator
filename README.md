@@ -1,1 +1,1 @@
-# professional-readme-gnerator
+# professional-readme-generator
