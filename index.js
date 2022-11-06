@@ -27,12 +27,6 @@ const questions = [
         message: "Provide the URL of your deployed application.",
     },
     {
-        type: "checkbox",
-        name: "license",
-        message: "What kind of license should your project have?",
-        choices: ["MIT","APACHE2.0", "Boost1.0", "MPL2.0", "BSD3", "none"],
-    },
-    {
         type: "input",
         name: "require",
         message: "List any project dependencies here that are required to be installed.",
@@ -60,13 +54,19 @@ const questions = [
     {
         type: "input",
         name: "contributors",
-        message: "List any contributors. (Use GitHub usermanes)",
+        message: "List any contributors. (Use GitHub usernames)",
         default: "",
     },
     {
         type: "input",
         name: "test",
         message: "Provide test instructions if required.",
+    },
+    {
+        type: "checkbox",
+        name: "license",
+        message: "What kind of license should your project have?",
+        choices: ["MIT","APACHE2.0", "Boost1.0", "MPL2.0", "BSD3", "none"],
     },
 ];
 

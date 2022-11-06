@@ -11,31 +11,53 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
-## Description
-${data.description}
-## Deployed Application URL
-${data.link}
-## Screenshot
-[alt-text]("${data.screenshot}")
+
 ## Table of Contents
+* [Description](#description)
+* [Screenshot](#screenshot)
+* [Deployment](#deployment)
+* [Installation](#require)
 * [Features](#features)
-* [Languages & Dependencies](#languages and dependencies)
-* [How to Use This Application](#How to Use This Application)
+* [Usage](#usage)
+* [Contact-Me](#contact-me)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
+* [License](#license)
+
+## Description
+${data.description}
+
+## Screenshot
+${data.screenshot}
+
+## Deployed Application URL
+${data.link}
+
+## Installation
+${data.require}
+
 ## Features
 ${data.features}
-## Languages and Dependencies
-${data.require}
-## How to Use This Application:
+
+## Usage
 ${data.usage}
+
+## Contact-Me
+* GitHub: [${data.creator}](https://github.com/${data.creator})
+* Email: ${data.email}
+
 ## Contributors
 ${data.contributors}
+
 ## Testing
 ${data.test}
+
 ## Questions
 Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
+
+## License
+${data.license}
 `;
 }
 
