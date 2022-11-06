@@ -18,7 +18,7 @@
 This app automatically generates professional ReadMe's by using NodeJS and Inquirer (an NPM product). 
 
 ## Screenshot
-N/A
+![screenShot](./utils/images/Screenshot%202022-11-06%20160209.png)
 
 ## Deployed Application URL
 N/A
