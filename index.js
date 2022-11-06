@@ -35,12 +35,17 @@ const questions = [
     {
         type: "input",
         name: "require",
-        message: "List any project dependencies here.",
+        message: "List any project dependencies here that are required to be installed.",
     },
     {
         type: "input",
         name: "features",
         message: "List features of project here.",
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "What languages or technologies are associated with this project?",
     },
     {
         type: "input",
@@ -57,6 +62,11 @@ const questions = [
         name: "contributors",
         message: "List any contributors. (Use GitHub usermanes)",
         default: "",
+    },
+    {
+        type: "input",
+        name: "test",
+        message: "Provide test instructions if required.",
     },
 ];
 
