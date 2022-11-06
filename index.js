@@ -25,7 +25,7 @@ const questions = [
         type: "input",
         name: "link",
         message: "Provide the URL of your deployed application.",
-    }
+    },
     {
         type: "checkbox",
         name: "license",
@@ -36,22 +36,22 @@ const questions = [
         type: "input",
         name: "require",
         message: "List any project dependencies here.",
-    }
+    },
     {
         type: "input",
         name: "features",
         message: "List features of project here.",
-    }
+    },
     {
         type: "input",
         name: "creator",
         message: "What is your GitHub username?",
-    }
+    },
     {
         type: "input",
         name: "email",
         message: "What is your email address?",
-    }
+    },
     {
         type: "input",
         name: "contributors",
